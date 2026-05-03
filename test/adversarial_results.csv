@@ -1,0 +1,10 @@
+model,attack,clean_accuracy,adv_accuracy,attack_success_rate,avg_l2_distance
+MLP,fgsm,0.97,0.86,0.11,0.675
+MLP,pgd,0.97,0.84,0.13,0.6683
+MLP,cw,0.97,0.21,0.76,3.8183
+CNN,fgsm,0.97,0.845,0.125,2.1208
+CNN,pgd,0.97,0.49,0.48,1.8438
+CNN,cw,0.97,0.215,0.755,3.1234
+ResNet,fgsm,0.99,0.61,0.38,2.1299
+ResNet,pgd,0.99,0.14,0.85,1.9784
+ResNet,cw,0.99,0.285,0.705,3.4469
