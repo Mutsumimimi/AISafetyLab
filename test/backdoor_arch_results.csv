@@ -1,0 +1,4 @@
+setting,model,clean_accuracy,asr,asr_strict
+BadNets->0,MLP,0.975,1.0,1.0
+BadNets->0,CNN,0.98,1.0,1.0
+BadNets->0,ResNet,0.99,1.0,1.0
